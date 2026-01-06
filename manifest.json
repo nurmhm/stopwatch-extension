@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Persistent Stopwatch",
+  "version": "1.0",
+  "description": "A persistent stopwatch Chrome extension that continues running even when closed",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

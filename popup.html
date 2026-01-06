@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>Work Timer</h1>
+  </div>
+  
+  <div class="timer-container">
+    <div id="time">00:00:00</div>
+    <div id="status" class="status">Ready to start</div>
+  </div>
+
+  <div class="buttons">
+    <button id="start" class="btn start-btn">▶ Start</button>
+    <button id="stop" class="btn stop-btn">⏸ Pause</button>
+    <button id="reset" class="btn reset-btn">⏹ Reset</button>
+  </div>
+
+  <div class="info">
+    <small id="info-text">Timer runs in background when popup is closed</small>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
